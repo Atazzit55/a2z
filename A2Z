@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    char lettre;
+
+    printf("L'alphabet en majuscules :\n");
+    for(lettre = 'A'; lettre <= 'Z'; lettre++) {
+        printf("%c ", lettre);
+    }
+
+    printf("\n\nL'alphabet en minuscules :\n");
+    for(lettre = 'a'; lettre <= 'z'; lettre++) {
+        printf("%c ", lettre);
+    }
+
+    return 0;
+}
